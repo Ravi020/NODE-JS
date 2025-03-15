@@ -7,7 +7,7 @@ let port = process.env.PORT;
 server.createServer(function (req, res) {
     if (req.url === "/") {
         res.writeHead(200, { "content-type": "text/html" });
-        res.write(`<h1>Home Page</h1>
+        res.write(`<h1>NODE JS</h1>
         <ul>
             <li><a href="/h">Go to Home</a></li>
             <li><a href="/c">Go to Contact</a></li>
